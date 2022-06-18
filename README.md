@@ -5,7 +5,17 @@
 Transcodarr is a container build for radarr and sonarr to allows you to transcode only sound into AAC if is not AAC or AC3.
 
 
+Build Image :
+
+```
+git clone https://github.com/TheNexter/Transcodarr
+cd Transcodarr
+sudo chown root:root transcodarr.sh && sudo chmod 777 transcodarr.sh
+docker build -t transcodarr .
+```
+
 Installation :
+
 Step 1: Launch Transcodarr with one of the following commands
 
 ```
