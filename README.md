@@ -1,6 +1,5 @@
 ![Logo](https://user-images.githubusercontent.com/17613028/174446467-c7370958-0902-4b80-9496-cabc5505e7ed.svg)
 ---
-# Transcodarr
 
 Transcodarr is a container build for radarr and sonarr to allows you to transcode only sound into AAC if is not AAC or AC3.
 
