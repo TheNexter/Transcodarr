@@ -137,7 +137,7 @@ transcode (){
 while true;
 do
   findFilesToScan;
-  sleep 10;
+  sleep 120;
   threads=$cpucore;
   nbLines=$(cat $transcodarrdb | wc -l);
   offset=$(($(($nbLines / $threads)) + 1));
